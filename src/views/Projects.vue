@@ -10,7 +10,7 @@
                 <div class="left">
                   <h5 class="card-title">{{ project.name }}</h5>
                   <p class="card-text">{{ project.description }}</p>
-                  <a :href="project.link" target="_blank" class="btn btn-success">
+                  <a :href="project.link" target="_blank" class="btn btn-dark">
                     Ver proyecto
                   </a>
                 </div>
@@ -96,5 +96,11 @@ img {
   align-items: center;
   justify-content: center;
   padding: 1vh;
+}
+@media (hover: hover) {
+  .btn:hover {
+    background-color: #42b883;
+    border-color: #42b883;
+  }
 }
 </style>

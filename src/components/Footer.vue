@@ -1,4 +1,3 @@
-<!-- src/components/Footer.vue -->
 <template>
   <footer>
     <p style="margin: 0;">© 2025 Imanol Ortiz Oga - Desarrollador Web</p>
@@ -26,5 +25,6 @@ footer {
   font-size: 0.9rem;
   user-select: none;
 }
+
 
 </style>

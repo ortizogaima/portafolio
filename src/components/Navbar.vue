@@ -39,5 +39,11 @@
 .nav-link{
   border-radius: 5px;
 }
+
+@media (hover: hover) {
+  a:hover {
+    background-color: #42b883;
+  }
+}
 </style>
 

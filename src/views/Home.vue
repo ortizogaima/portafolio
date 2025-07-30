@@ -14,7 +14,7 @@
       </div>
       
       <div class="d-flex justify-content-center flex-wrap gap-3">
-        <a href="https://wa.link/nj2c8b" target="_blank" class="btn btn-success px-4">
+        <a href="https://wa.link/nj2c8b" target="_blank" class="btn btn-dark px-4">
           WhatsApp
         </a>
         <a href="/Ortiz Oga - Desarrollador Web.pdf" download class="btn btn-dark">
@@ -53,5 +53,12 @@ export default {
 .iconSkill {
   font-size: 8vh;
   color: #343a40;
+}
+
+@media (hover: hover) {
+  .btn:hover {
+    background-color: #42b883;
+    border-color: #42b883;
+  }
 }
 </style>
