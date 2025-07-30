@@ -1,29 +1,100 @@
-# portafolio
+# Portafolio Web - Imanol Ortiz Oga
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es mi portafolio personal, desarrollado con **Vue 3** usando **Vue CLI**, estilado con **Bootstrap 5** y organizado con **Vue Router**. Aquí presento mi perfil profesional, habilidades, proyectos, información de contacto y más.
 
-## Recommended IDE Setup
+## 🌐 Demo en vivo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+> Disponible próximamente...
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🚀 Tecnologías utilizadas
 
-## Project Setup
+- **Vue 3** (Vue CLI)
+- **Vue Router**
+- **Bootstrap 5**
+- **Font Awesome**
+- **HTML5 & CSS3**
+- **JavaScript**
 
-```sh
+---
+
+## 📁 Estructura del proyecto
+
+```
+src/
+│
+├── assets/            # Imágenes y recursos estáticos
+├── components/
+│   ├── NavBar.vue     # Barra de navegación principal
+├── views/
+│   ├── Home.vue       # Vista de inicio
+│   ├── AboutMe.vue    # Sobre mí
+│   ├── Projects.vue   # Proyectos con imágenes
+│   ├── Skills.vue     # Habilidades
+│   ├── Contact.vue    # Redes y contacto
+│
+├── router/
+│   └── index.js       # Configuración de rutas
+│
+├── App.vue            # Componente raíz
+└── main.js            # Punto de entrada principal
+```
+
+---
+
+## 📷 Capturas de pantalla
+
+- **Home:** Información personal y botones de contacto y descarga de CV.
+- **About Me:** Descripción personal y frase inspiradora.
+- **Projects:** Lista de proyectos con nombre, descripción e imagen.
+- **Skills:** Habilidades técnicas visualmente organizadas.
+- **Contact:** Íconos de contacto directo con WhatsApp, LinkedIn y correo.
+
+---
+
+## ⚙️ Instalación y ejecución
+
+1. Clonar el repositorio:
+
+```bash
+git clone 
+HTTPS
+https://github.com/ortizogaima/portafolio.git
+SSH
+git@github.com:ortizogaima/portafolio.git
+cd portafolio
+```
+
+2. Instalar las dependencias:
+
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+3. Ejecutar el servidor de desarrollo:
 
-```sh
-npm run dev
+```bash
+npm run serve
 ```
 
-### Compile and Minify for Production
+4. Abrí en tu navegador:
 
-```sh
-npm run build
 ```
+http://localhost:8080
+```
+
+---
+
+## ✨ Créditos
+
+Desarrollado por **Imanol Ortiz Oga**  
+📧 ortizogaimanol.labase@gmail.com  
+🌐 [LinkedIn](https://www.linkedin.com/in/imanol-ortiz-oga)  
+📱 [WhatsApp](https://wa.link/nj2c8b)
+
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo licencia MIT.

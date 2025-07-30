@@ -1,37 +1,3 @@
-<!-- <script setup>
-import { ref } from 'vue'
-import Slidebar from './components/Slidebar.vue'
-import Background from './components/Background.vue'
-
-
-const clickIt = ref(false)
-const changeClickIt = () => {
-  clickIt.value = !clickIt.value
-}
-
-
-</script>
-
-<template>
-  <header>
-    <div class="wrapper" @click="changeClickIt">
-      <Slidebar :clickIt="clickIt" />
-    </div>
-  </header>
-
-  <main>
-    <Background />
-  </main>
-</template>
-
-<style scoped>
-.wrapper{
-  background-color: blueviolet;
-}
-
-</style> -->
-
-
 <template>
   <div class="main">
     <Navbar />
