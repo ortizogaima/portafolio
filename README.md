@@ -25,15 +25,15 @@ Este es mi portafolio personal, desarrollado con **Vue 3** usando **Vue CLI**, e
 src/
 │
 ├── assets/            # Imágenes y recursos estáticos
+│   ├── main.css    # Estilizado principal
 ├── components/
 │   ├── NavBar.vue     # Barra de navegación principal
+│   ├── Footer.vue     # Pie de página
 ├── views/
 │   ├── Home.vue       # Vista de inicio
 │   ├── AboutMe.vue    # Sobre mí
-│   ├── Projects.vue   # Proyectos con imágenes
-│   ├── Skills.vue     # Habilidades
+│   ├── Projects.vue   # Proyectos
 │   ├── Contact.vue    # Redes y contacto
-│
 ├── router/
 │   └── index.js       # Configuración de rutas
 │
@@ -43,45 +43,33 @@ src/
 
 ---
 
-## 📷 Capturas de pantalla
-
-- **Home:** Información personal y botones de contacto y descarga de CV.
-- **About Me:** Descripción personal y frase inspiradora.
-- **Projects:** Lista de proyectos con nombre, descripción e imagen.
-- **Skills:** Habilidades técnicas visualmente organizadas.
-- **Contact:** Íconos de contacto directo con WhatsApp, LinkedIn y correo.
-
----
-
 ## ⚙️ Instalación y ejecución
 
 1. Clonar el repositorio:
 
 ```bash
-git clone 
 HTTPS
-https://github.com/ortizogaima/portafolio.git
+git clone https://github.com/ortizogaima/portafolio.git
 SSH
-git@github.com:ortizogaima/portafolio.git
+git clone git@github.com:ortizogaima/portafolio.git
+```
+
+2. Entrar al proyecto:
+
+```bash
 cd portafolio
 ```
 
-2. Instalar las dependencias:
+3. Instalar las dependencias:
 
 ```bash
 npm install
 ```
 
-3. Ejecutar el servidor de desarrollo:
+4. Ejecutar el servidor de desarrollo:
 
 ```bash
 npm run serve
-```
-
-4. Abrí en tu navegador:
-
-```
-http://localhost:8080
 ```
 
 ---
@@ -89,7 +77,7 @@ http://localhost:8080
 ## ✨ Créditos
 
 Desarrollado por **Imanol Ortiz Oga**  
-📧 ortizogaimanol.labase@gmail.com  
+📧 [Email](ortizogaimanol.labase@gmail.com)  
 🌐 [LinkedIn](https://www.linkedin.com/in/imanol-ortiz-oga)  
 📱 [WhatsApp](https://wa.link/nj2c8b)
 
