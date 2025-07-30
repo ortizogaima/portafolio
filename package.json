@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": false,
   "type": "module",
+  "url": "ortizogaima.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
