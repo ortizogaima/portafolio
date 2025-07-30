@@ -47,10 +47,12 @@ src/
 
 1. Clonar el repositorio:
 
-```bash
 HTTPS
+```bash
 git clone https://github.com/ortizogaima/portafolio.git
+```
 SSH
+```bash
 git clone git@github.com:ortizogaima/portafolio.git
 ```
 
