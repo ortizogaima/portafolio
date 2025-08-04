@@ -8,8 +8,10 @@
       <p class="lead mb-4">Con ganas de seguir creciendo profesionalmente.</p>
 
       <div class="row justify-content-center g-1 mb-5 align-items-center gap-3">
-        <div class="col-lg-3" v-for="skill in skills" :key="skill.name">
-          <i class="iconSkill" :class="skill.icon"></i>
+        <div class="col-lg-2" v-for="skill in skills" :key="skill.name">
+          <a :href="skill.link" class="btn" target="_blank">
+            <i class="iconSkill" :class="skill.icon"></i>
+          </a>
         </div>
       </div>
       
@@ -31,12 +33,15 @@ export default {
   data() {
     return {
       skills: [
-        { name: 'JavaScript', icon: 'bi bi-javascript' },
-        { name: 'Vue', icon: 'fa-brands fa-vuejs' },
-        { name: 'React', icon: 'fa-brands fa-react' },
-        { name: 'Python', icon: 'fa-brands fa-python' },
-        { name: 'HTML', icon: 'fa-brands fa-html5' },
-        { name: 'CSS', icon: 'fa-brands fa-css3-alt' },
+        { name: 'JavaScript', icon: 'bi bi-javascript', link: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript' },
+        { name: 'Vue', icon: 'fa-brands fa-vuejs', link: 'https://vuejs.org' },
+        { name: 'React', icon: 'fa-brands fa-react', link: 'https://react.dev' },
+        { name: 'Python', icon: 'fa-brands fa-python', link: 'https://python.org' },
+        { name: 'HTML', icon: 'fa-brands fa-html5', link: 'https://developer.mozilla.org/en/docs/Web/HTML' },
+        { name: 'CSS', icon: 'fa-brands fa-css3-alt', link: 'https://developer.mozilla.org/en/docs/Web/CSS' },
+        { name: 'Bootstrap', icon: 'fa-brands fa-bootstrap', link: 'https://getbootstrap.com' },
+        { name: 'Git', icon: 'fa-brands fa-git-alt', link: 'https://git-scm.com' },
+        { name: 'Linux', icon: 'fa-brands fa-linux', link: 'https://www.linux.org' },
       ]
     }
   }

@@ -6,7 +6,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav gap-2">
+        <ul class="navbar-nav gap-2 display-flex justify-content-center align-items-center text-center">
           <li class="nav-item">
             <RouterLink to="/portafolio/" class="nav-link">Inicio</RouterLink>
           </li>
@@ -31,11 +31,11 @@
 <style scoped>
 .navbar{
   width: 100vw;
-  height: 5vh;
   position: fixed;
   top: 0;
   z-index: 1000;
 }
+
 .nav-link{
   border-radius: 5px;
 }
