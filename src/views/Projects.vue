@@ -33,21 +33,21 @@ export default {
     return {
       projects: [
         {
-          name: 'GrabbbIt',
+          name: 'GrabbIt',
           description: 'Sistema de envío de paquetes, página y backend.',
-          link: 'https://grabbbitapp.com',
+          link: 'https://grabbitapp.com',
           img: './flipi.png'
         },
         {
           name: 'Taqadam',
           description: 'Visualización de datos AI-Ready, página y sistema.',
-          link: 'https://taqadam.kaust.edu.sa',
+          link: 'https://taqadam.io/',
           img: './taqadam.png'
         },
         {
           name: 'GoPic',
           description: 'Sistema que imprime fotos desde Instagram.',
-          link: 'https://gopic.odoo.com',
+          link: 'https://www.instagram.com/gopic_ok/',
           img: './gopic.png'
         }
       ]
