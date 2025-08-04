@@ -35,7 +35,7 @@ export default {
         {
           name: 'GrabbIt',
           description: 'Sistema de envío de paquetes, página y backend.',
-          link: 'https://grabbitapp.com',
+          link: 'https://grabbbitapp.com/',
           img: './flipi.png'
         },
         {
