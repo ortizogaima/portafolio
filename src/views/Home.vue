@@ -9,7 +9,7 @@
 
       <div class="row justify-content-center g-1 mb-5 align-items-center gap-3">
         <div class="col-lg-2" v-for="skill in skills" :key="skill.name">
-          <a :href="skill.link" class="btn" target="_blank">
+          <a :href="skill.link" target="_blank">
             <i class="iconSkill" :class="skill.icon"></i>
           </a>
         </div>
