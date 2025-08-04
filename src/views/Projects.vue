@@ -36,19 +36,19 @@ export default {
           name: 'GrabbbIt',
           description: 'Sistema de envío de paquetes, página y backend.',
           link: 'https://grabbbitapp.com',
-          img: '/flipi.png'
+          img: './flipi.png'
         },
         {
           name: 'Taqadam',
           description: 'Visualización de datos AI-Ready, página y sistema.',
           link: 'https://taqadam.kaust.edu.sa',
-          img: '/taqadam.png'
+          img: './taqadam.png'
         },
         {
           name: 'GoPic',
           description: 'Sistema que imprime fotos desde Instagram.',
           link: 'https://gopic.odoo.com',
-          img: '/gopic.png'
+          img: './gopic.png'
         }
       ]
     }
