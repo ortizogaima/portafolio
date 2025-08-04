@@ -33,7 +33,7 @@ export default {
     return {
       projects: [
         {
-          name: 'GrabbIt',
+          name: 'Grabbbit',
           description: 'Sistema de envío de paquetes, página y backend.',
           link: 'https://grabbbitapp.com/',
           img: './flipi.png'
