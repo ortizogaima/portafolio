@@ -3,8 +3,6 @@
   "version": "0.0.0",
   "private": false,
   "type": "module",
-  "url": "ortizogaima.github.io",
-  "homepage": "https://ortizogaima.github.io/portafolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
