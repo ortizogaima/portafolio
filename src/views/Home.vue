@@ -19,7 +19,7 @@
         <a href="https://wa.link/nj2c8b" target="_blank" class="btn btn-dark px-4">
           WhatsApp
         </a>
-        <a href="/Ortiz Oga - Desarrollador Web.pdf" download class="btn btn-dark">
+        <a href="/portafolio/Ortiz Oga - Desarrollador Web.pdf" download class="btn btn-dark">
           Descargar CV
         </a>
       </div>
