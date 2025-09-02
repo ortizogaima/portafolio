@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "private": false,
   "type": "module",
-  "url": "ortizogaima.github.io",
   "homepage": "https://ortizogaima.github.io/portafolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && gh-pages -d dist"
+    "predeploy": "vite build && gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
+    "serve": "vite preview"
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^3.1.1",

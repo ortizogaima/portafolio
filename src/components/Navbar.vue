@@ -6,18 +6,18 @@
       </button>
 
       <div class="collapse navbar-collapse" id="mainNavbar">
-        <ul class="navbar-nav gap-2">
+        <ul class="navbar-nav gap-2 display-flex justify-content-center align-items-center text-center">
           <li class="nav-item">
-            <RouterLink to="/" class="nav-link">Inicio</RouterLink>
+            <RouterLink to="/portafolio/" class="nav-link">Inicio</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/aboutMe" class="nav-link">Sobre mí</RouterLink>
+            <RouterLink to="/portafolio/aboutMe" class="nav-link">Sobre mí</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/projects" class="nav-link">Proyectos</RouterLink>
+            <RouterLink to="/portafolio/projects" class="nav-link">Proyectos</RouterLink>
           </li>
           <li class="nav-item">
-            <RouterLink to="/contact" class="nav-link">Contacto</RouterLink>
+            <RouterLink to="/portafolio/contact" class="nav-link">Contacto</RouterLink>
           </li>
         </ul>
       </div>
@@ -31,11 +31,11 @@
 <style scoped>
 .navbar{
   width: 100vw;
-  height: 5vh;
   position: fixed;
   top: 0;
   z-index: 1000;
 }
+
 .nav-link{
   border-radius: 5px;
 }
